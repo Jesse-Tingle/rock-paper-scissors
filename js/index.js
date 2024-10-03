@@ -70,10 +70,18 @@ const referee = (userHand, cpHand) => {
 	}
 }
 
-const setDecision = (decision) => {
-	console.log(decision) // This should work now
+const restartGame = () => {
+	let contest = document.querySelector(".contest")
+	contest.style.display = "none"
+
+	let hands = document.querySelector(".hands")
+	hands.style.display = "flex"
 }
 
-const setScore = (currentScore) => {
-	console.log(currentScore) // This should work now with the correct 'score' variable
+const setDecision = (decision) => {
+	document.querySelector(".decision h1").innerHTML = decision
+}
+
+const setScore = () => {
+	document.querySelector(".score h1").innerText = score
 }
