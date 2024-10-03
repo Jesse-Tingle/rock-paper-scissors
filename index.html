@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | Rock, Paper, Scissors</title>
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="styles.css" />
+
+		<!-- font family -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="/js/index.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="scoreboard">
+				<div class="title">
+					<img src="/images/logo.svg" alt="Rock, Paper, Scissors" />
+				</div>
+				<div class="score">
+					<p>SCORE</p>
+					<h1>0</h1>
+				</div>
+			</div>
+
+			<div class="hands">
+				<div class="hand paper">
+					<img
+						src="/images/Paper.png"
+						alt="open hand icon"
+						onclick="pickUserHand('paper')"
+					/>
+				</div>
+				<div class="hand scissors">
+					<img
+						src="/images/Scissors.png"
+						alt="peace sign hand icon"
+						onclick="pickUserHand('scissors')"
+					/>
+				</div>
+				<div class="hand rock">
+					<img
+						src="/images/Rock.png"
+						alt="fist icon"
+						onclick="pickUserHand('rock')"
+					/>
+				</div>
+			</div>
+			<div class="contest">
+				<div class="userhand">
+					<h1>YOU PICKED</h1>
+					<div class="handImageContainer">
+						<img id="userPickImage" src="/images/Paper.png" alt="paper" />
+					</div>
+				</div>
+				<div class="referee">
+					<div class="decision">
+						<h1>YOU WIN</h1>
+						<div class="newGame" onclick="restartGame()">PLAY AGAIN</div>
+					</div>
+				</div>
+				<div class="computerHand">
+					<h1>THE HOUSE PICKED</h1>
+					<div class="handImageContainer">
+						<img id="computerPickImage" src="/images/Rock.png" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
