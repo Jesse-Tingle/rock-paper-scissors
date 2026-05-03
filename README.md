@@ -1,5 +1,7 @@
 # Rock, Paper, Scissors
 
+## 🔗 Live Demo (https://rock-paper-scissors-jt.netlify.app/)
+
 ![preview](./design/desktop-preview.jpg)
 
 A responsive Rock, Paper, Scissors game built with HTML, CSS, and JavaScript. This project was created as a Frontend Mentor challenge to practice DOM manipulation, game logic, responsive layout, and interactive UI behavior.
