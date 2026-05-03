@@ -4,13 +4,13 @@
 
 ![preview](./design/desktop-preview.jpg)
 
-A responsive Rock, Paper, Scissors game built with HTML, CSS, and JavaScript. This project was created as a Frontend Mentor challenge to practice DOM manipulation, game logic, responsive layout, and interactive UI behavior.
+A responsive interactive game built with HTML, CSS, and JavaScript. The app lets users play Rock, Paper, Scissors against a computer opponent while dynamically updating choices, results, and score through DOM-based UI interactions.
 
 ## Overview
 
-This app lets users play Rock, Paper, Scissors against a randomly generated computer choice. After each round, the app displays the player’s choice, the computer’s choice, the result, and updates the score.
+This app lets users play Rock, Paper, Scissors against a computer opponent that randomly selects its move each round. After the player makes a choice, the game reveals both selections, determines the winner, displays the result, and updates the score.
 
-The goal of this project was to build a clean, interactive browser game while matching the provided Frontend Mentor design as closely as possible.
+The goal of this project was to build a polished, interactive browser game that combines simple game logic with responsive layout, clear visual feedback, and smooth user interaction.
 
 ## Features
 
@@ -18,7 +18,7 @@ The goal of this project was to build a clean, interactive browser game while ma
 - Randomized computer selection each round
 - Score tracking during the session
 - Visual feedback for wins, losses, and ties
-- Responsive layout based on the Frontend Mentor design
+- Responsive layout
 - Rules modal for quick reference
 
 ## Game Rules
@@ -38,7 +38,6 @@ If both choices match, the round is a tie.
 - HTML5
 - CSS3
 - JavaScript
-- Frontend Mentor starter assets
 
 ## What I Learned
 
