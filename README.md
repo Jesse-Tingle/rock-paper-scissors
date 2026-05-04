@@ -63,7 +63,6 @@ Some improvements I would like to make include:
 - Add a reset score button
 - Add animations between game states
 - Add unit tests for the game result logic
-- Deploy the project with GitHub Pages, Netlify, or Vercel
 
 ## Getting Started
 

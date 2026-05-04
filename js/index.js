@@ -32,8 +32,6 @@ const pickComputerHand = (hand) => {
 // This is the correct score variable
 
 const referee = (userHand, cpHand) => {
-	console.log("User hand:", userHand)
-	console.log("Computer hand:", cpHand)
 
 	if (userHand == "paper" && cpHand == "scissors") {
 		setDecision("YOU LOSE!")
@@ -65,8 +63,6 @@ const referee = (userHand, cpHand) => {
 		setDecision("YOU WIN!")
 		score += 1
 		setScore(score)
-	} else {
-		console.log("No condition matched! Check your logic.")
 	}
 }
 
